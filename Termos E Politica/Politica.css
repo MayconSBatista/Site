@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;  
+}
+body{
+    font-family: 'Crimson Text', serif;
+    height: 100vh;
+}
+input{
+    border-radius: 5px;
+}
+#lista_menu{  
+    background-color: #8B8989;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: medium;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0 0 1em black;
+    width: 100%;
+    position: relative;
+    font-family: 'Alkalami', serif;
+}
+
+#lista_menu ul{
+    list-style-type: none;
+    padding-top: 20px;
+    background-color: #EEE9E9;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding-left: 100px;
+}
+
+#lista_menu ul li{
+    display: inline;  
+}
+#lista_menu ul li a{
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 100px;
+    transition: background .1,5s;
+}
+#lista_menu ul li a:hover{
+    color: rgb(0, 0, 0, 0.7);
+}
+#icone{
+    list-style-image:  url(./icone-salgado.png.opdownload);
+}
+.imagem_inicio{
+    height: 60px;
+    width: 60px;
+    padding: 2px;
+    position: absolute;
+    left: 30px;
+}
+img{
+    max-width: 100%;
+    max-width: 100%;
+}
+#container_rodape{
+    max-height: 25px;
+    max-width: 500px;
+    display:flex;
+}
+#container_rodape{
+    max-height: 25px;
+    max-width: 500px;
+    display:flex;
+}
+#rodape{
+    background-color: #EEE9E9;
+    border-top: medium;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;   
+    width: 100%;
+}
+#rodape h3{
+    margin-top: 1px;
+}
+#rodape a{
+    text-decoration: none;
+}
+#rodape a:visited{
+    color: black;
+}
+#rodape a:link{
+    color: black;
+}
+#dev_estudo{
+    background-color: #EEE9E9;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 12px;
+    width: 100%;
+}
+#dev_estudo p{
+    color: black;
+}

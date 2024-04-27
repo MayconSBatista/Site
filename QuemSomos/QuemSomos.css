@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+/* https://restaurantguru.com.br/Tio-Rui-Salgados-Eunapolis
+    https://www.ametistapedras.com.br // Icone Whatsapp
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;  
+}
+body{
+    background-image: url(./imagem_rodape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Crimson Text', serif;
+    height: 100vh;
+}
+#lista_menu{  
+    background-color: #8B8989;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: medium;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0 0 1em black;
+    width: 100%;
+    position: relative;
+    font-family: 'Alkalami', serif;
+}
+
+#lista_menu ul{
+    list-style-type: none;
+    padding-top: 20px;
+    background-color: #EEE9E9;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding-left: 100px;
+}
+
+#lista_menu ul li{
+    display: inline;  
+}
+#lista_menu ul li a{
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 100px;
+    transition: background .1,5s;
+}
+#lista_menu ul li a:hover{
+    color: rgb(0, 0, 0, 0.7);
+}
+#icone{
+    list-style-image:  url(./icone-salgado.png.opdownload);
+}
+.imagem_inicio{
+    height: 60px;
+    width: 60px;
+    padding: 2px;
+    position: absolute;
+    left: 30px;
+}
+img{
+    max-width: 100%;
+    max-width: 100%;
+}
+#conteudo_menu{    
+    background-color: #EEE9E9;
+    color:black;
+    max-width: 1000px;
+    text-align:left;
+    border-top: 0px;
+    border-right: medium;
+    border-left: medium;
+    border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    height: 89.2vh;
+    padding: 12vh;
+
+}
+#conteudo_menu h3{
+    font-size: 30px;
+    text-align: center;
+}
+#conteudo_menu p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+    text-align: justify;
+}
+#conteudo_menu h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 10%;
+}
+#localizacao{
+    display:flex;
+    margin-left: -50px;
+    align-items: center;
+    margin: 20px;
+}
+#imagem_local{
+    width: 400px;
+    height: 250px;
+    border:medium;
+    border-color: black;
+    border-style:solid;
+    box-shadow: 0 0 1em black;
+    border-radius: 10px;
+}
+iframe{
+    border:medium;
+    border-color: black;
+    border-style:solid;
+    box-shadow: 0 0 1em white;
+    border-radius: 10px;
+    border:medium;
+    border-color: black;
+    border-style:solid;
+    box-shadow: 0 0 1em black;
+    border-radius: 10px;
+}
+#endereco p{
+    text-align: center;
+}
+#container_rodape{
+    max-height: 25px;
+    max-width: 500px;
+    display:flex;
+}
+#rodape{
+    background-color: #EEE9E9;
+    border-top: medium;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;   
+    width: 100%;
+}
+#rodape h3{
+    margin-top: 1px;
+}
+#rodape a{
+    text-decoration: none;
+}
+#rodape a:visited{
+    color: black;
+}
+#rodape a:link{
+    color: black;
+}
+#dev_estudo{
+    color: black;
+    background-color: #EEE9E9;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 12px;
+    width: 100%;
+}
+@media (max-width: 876px){
+    #localizacao{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    #localizacao imagem_local{
+        align-items: center;
+    }
+}
